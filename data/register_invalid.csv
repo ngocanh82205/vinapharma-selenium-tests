@@ -1,0 +1,7 @@
+case_id,name,email,phone,password,confirm,agree,description
+RG01,,,,,,true,Bỏ trống tất cả các trường
+RG02,Nguyen Van A,email-sai,0912345678,Abc@12345,Abc@12345,true,Email sai định dạng
+RG03,Nguyen Van A,test_vp_rg03@example.com,0912345678,Abc@12345,Abc@99999,true,Mật khẩu xác nhận không khớp
+RG04,Nguyen Van A,test_vp_rg04@example.com,0912345678,123,123,true,Mật khẩu quá ngắn
+RG05,Nguyen Van A,test_vp_rg05@example.com,0912345678,Abc@12345,Abc@12345,false,Không đồng ý điều khoản
+RG06,Nguyen Van A,test_vp_rg06@example.com,abc123,Abc@12345,Abc@12345,true,Số điện thoại chứa chữ

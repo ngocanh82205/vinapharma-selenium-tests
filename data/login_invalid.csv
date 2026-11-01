@@ -1,0 +1,7 @@
+case_id,email,password,description
+LG01,,,Bỏ trống cả email và mật khẩu
+LG02,khongtontai@example.com,,Bỏ trống mật khẩu
+LG03,,Abc@12345,Bỏ trống email
+LG04,khongtontai_vp@example.com,SaiMatKhau123,Tài khoản không tồn tại
+LG05,abc@,Abc@12345,Email sai định dạng
+LG06,' OR '1'='1,' OR '1'='1,Chuỗi SQL injection
